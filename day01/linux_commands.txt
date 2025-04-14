@@ -1,0 +1,18 @@
+whoami - prints out user id. In my case - root
+id - prints out identity of specified user
+groups - print out users groups. root - root, ypcoder - adm, user, etc.
+passwd - update current users password
+adduser <name> - add new user to the system
+usermod - modify user account. usermod -aG susdo testuser - add user to sudo group without deleting from his older groups.
+su - switch current user.
+sudo apt update - update list of available packages and their versions
+chmod - set permissions to files and directories. 
+chown - change ownership of files and directories.
+touch - create a file.
+mkdir - create a directory.
+cp - copy file.
+mv - copy or move file to another place.
+rm - delete a file (-f) or directory (-rf).
+ls -l - print a list of things in directory with permissions.
+ls -a print a list of things and hidden files.
+ls -lh - print a list of things in a human readable type.
